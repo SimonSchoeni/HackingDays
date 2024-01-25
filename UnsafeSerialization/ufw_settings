@@ -1,0 +1,12 @@
+ws-admin@ws-ser:~$ sudo ufw status
+Status: active
+
+To                         Action      From
+--                         ------      ----
+2375                       DENY        Anywhere
+2375                       ALLOW       10.1.66.167
+80                         ALLOW       Anywhere
+22                         ALLOW       Anywhere
+2375 (v6)                  DENY        Anywhere (v6)
+80 (v6)                    ALLOW       Anywhere (v6)
+22 (v6)                    ALLOW       Anywhere (v6)
